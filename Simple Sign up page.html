@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title> 
+    <style>
+        body
+        {
+            background:url("mountains.jpg");
+        }
+        .container
+        {
+            background-color: rgb(0,0,0,0.5);
+            color: white;
+            font-family: Arial, Helvetica, sans-serif;
+            width: 350px;
+            margin: 150px auto;
+            padding: 10px 10px 20px;
+            border-radius: 10px;
+        }
+        h1
+        {
+            text-align: center;
+            color: rgb(237, 114, 20);
+        }
+        .textlabels
+        {
+            display: block;
+            font-size: 1.4rem;
+        }
+        .textinputs
+        {
+            width: 100%;
+            box-sizing: border-box;
+            font-size: 1.7rem;
+            padding: 2px 2px;
+            border-radius: 7px;
+            margin: 3px 0px 15px;
+        }
+        .radio
+        {
+            font-size: 1.4rem;
+        }
+        .radio input
+        {
+            transform: scale(1.8);
+        }
+        .btn
+        {
+            display: flex;
+            justify-content: center;
+            margin-top: 20px;
+        }
+        .btn button
+        {
+            background-color: rgb(9, 233, 221);
+            color: white;
+            border: none;
+            padding: 5px 8px;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Sign Up</h1>
+        </div>
+
+        <form action="">
+            <div class="input">
+                <label class="textlabels" for="">User Name</label>
+                <input class="textinputs" type="text" name="" id="">
+            </div>
+
+            <div class="input">
+                <label class="textlabels" for="">Email</label>
+                <input class="textinputs" type="email" name="" id="">
+            </div>
+
+            <div class="input">
+                <label class="textlabels" for="">Password</label>
+                <input class="textinputs" type="password" name="" id="">
+            </div>
+
+            <div class="radio">
+                    <input type="radio" name="gender" id="">
+                    <label for="">Male</label>
+                    <input type="radio" name="gender" id="">
+                    <label for="">Female</label>
+            </div>
+
+            <div class="btn">
+                <button>Register</button>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
