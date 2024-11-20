@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body 
+        {
+            font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+            background-color: rgb(0,0,0,0.5);
+        }
+        .btns img
+        {
+            width: 10px;
+        }
+        .container
+        {
+            width:300px;
+            margin: 60px auto;
+            background-color: white;
+            padding: 30px 60px 10px 60px;
+            border-radius: 30px;
+        }
+        .logo
+        {
+            display: flex;
+            justify-content: center;
+        }
+        .logo img
+        {
+            width: 45px;
+        }
+        h2
+        {
+            font-size: 1.6em;
+            margin-top: 5px;
+            text-align: center;
+        }
+        form label
+        {
+            display: block;
+            margin-left: 40px;
+            font-size: 14px;
+            margin-bottom: 2px;
+        }
+        form input
+        {
+            height: 40px;
+            border-radius: 15px;
+            width: 80%;
+            box-sizing: border-box;
+            padding: 5px 15px;
+            margin-left: 30px;
+            margin-bottom: 3px;
+        }
+        form input:focus
+        {
+            border: 4px solid rgb(33, 134, 168);
+            outline: none;
+        }
+        .forgot 
+        {
+            margin:10px 40px;
+        }
+        .forgot a
+        {
+            font-weight: 700;
+            text-decoration: none;
+            color: black;
+            font-size: 12px;
+        }
+        .btns
+        {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .btns button
+        {
+            width: 80%;
+            background-color: #e60023;
+            color: white;
+            padding: 10px 0px;
+            border-radius: 20px;
+            border: none;
+        }
+        .btns p
+        {
+            font-weight:600;
+            margin: 5px ;
+        }
+        .btns #fb , .btns #gl
+        {
+            display: flex;
+            width: 80%;
+            align-items: center;
+            margin-bottom: 10px;
+            border-radius: 20px;
+        }
+        #fb
+        {
+            background-color: #3d6ad6;
+            color: white;
+        }
+        #logo
+        {
+            flex: 1;
+            padding-left: 10px;
+
+        }
+        #gl
+        {
+            border: 1px solid #898e8c;
+        }
+        #logo img
+        {
+            width: 20px;
+            padding: 10px 0px 7px;
+        }
+        #continue
+        {
+            flex: 6;
+            margin-right: 0px;
+            width: 100%;
+        }
+        .policy
+        {
+            width: 100%;
+            text-align: center;
+            color: #898e8c;
+            font-size: 11px;
+        }
+        .policy a
+        {
+            color: black;
+            text-decoration: none;
+        }
+        .signup
+        {
+            width: 100%;
+            text-align: center;
+            color: #898e8c;
+            font-size: 11px;
+        }
+        .signup a
+        {
+            color: black;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+
+        <div class="logo">
+            <img src="pinterest (1).png" alt="">
+        </div>
+
+           
+
+        <form action="">
+
+            <div>
+                <h2>Log in to see more</h2>
+            </div>
+            <div>
+                <label for="">Email</label>
+                <input type="email" placeholder="Email">
+            </div>
+
+            <div>
+                <label for="">Password</label>
+                <input type="password" placeholder="Password">
+            </div>
+        </form>
+
+        <div class="forgot">
+            <a href="#">Forgot your password?</a>
+        </div>
+
+        <div class="btns">
+            <button id="li">Log in</button>
+            <p>OR</p>
+            <div id="fb">
+                <div id="logo">
+                    <img src="facebook_.png" alt="">
+                </div> 
+
+                <div id="continue">
+                    Continue with Facebook
+                </div>
+            </div>
+
+            <div id="gl">
+                <div id="logo">
+                    <img src="google.png" alt="">
+                </div> 
+
+                <div id="continue">
+                    Continue with Facebook
+                </div>
+            </div>
+        </div>
+
+        <div class="policy">
+            <p>By continuing, you agree to Pinterest's <b><a href="">Terms of Service</a></b> and <br> 
+                acknowledge you've read our <b><a href="">Privacy Policy. </a></b> <br>
+                <b><a href="">Notice at collection.</a></b>
+            </p>
+        </div>
+
+        <div class="signup">
+            <a href=""><b>Not on Pinterest yet? Sign up</b></a>
+            <p>Are you a business? <a href=""><b>Get started here!</b></a></p>
+        </div>
+    </div>
+    
+</body>
+</html>
